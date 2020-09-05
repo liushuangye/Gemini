@@ -1,0 +1,6 @@
+# Project exclude paths
+/fund/target/
+/product/target/
+/registry/target/
+/target/
+/user/target/

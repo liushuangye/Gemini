@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: fund
+
+server:
+  port: 8111
+
+eureka:
+  client:
+#    注册中心地址
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    hostname: 192.168.71.1
